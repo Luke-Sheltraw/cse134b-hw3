@@ -16,6 +16,7 @@
 .email__wrapper,
 .emailList__header {
   border: 1px solid var(--layout-border-color, lightgray);
+  transform: translate(0); /* workaround for known bug; Safari does not support position on <tr> */
   position: relative;
   height: var(--email-row-height, 2.25rem);
 }
