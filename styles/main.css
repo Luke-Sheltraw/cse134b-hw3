@@ -35,7 +35,7 @@ body {
   width: 10rem;
   overflow: hidden;
   white-space: nowrap;
-  transition: 150ms width ease-in-out, 150ms padding ease-in-out;
+  transition: 150ms width ease-in-out, 150ms padding-left ease-in-out, 150ms padding-right ease-in-out;
 }
 
 .main__right {
@@ -185,7 +185,7 @@ body {
   }
 
   .header__menuButton#close-menu-button {
-    margin-top: 4px;
+    margin-top: 3px;
   }
 
   .header__logo {
