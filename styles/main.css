@@ -55,7 +55,7 @@ body {
 
 .main__backLink:hover {
   background-color: var(--layout-bg-color, lightgray);
-  border: 1px solid var(--layout-border-color, lightgray);
+  border: 1px solid var(--layout-border-color, gray);
   filter: brightness(0.95);
 }
 
@@ -99,7 +99,7 @@ body {
   height: 2.25rem;
   padding: 0 0.75rem;
   font-size: 0.875rem;
-  border: 1px solid var(--layout-border-color, lightgray);
+  border: 1px solid var(--layout-border-color, gray);
   border-radius: 1rem;
 }
 
@@ -133,7 +133,7 @@ body {
   text-decoration: none;
   padding: 0.5rem 1rem;
   background-color: var(--layout-bg-color, white);
-  border: 1px solid var(--layout-border-color, lightgray);
+  border: 1px solid var(--layout-border-color, gray);
   border-radius: 1rem;
   display: inline-block;
   color: var(--layout-psuedo-black, black);
@@ -219,7 +219,7 @@ body {
     background-color: white;
     width: 0;
     padding: 0.5rem 0;
-    border-right: 1px solid var(--layout-border-color, lightgray);
+    border-right: 1px solid var(--layout-border-color, gray);
     box-shadow: var(--layout-shadow, none);
   }
 

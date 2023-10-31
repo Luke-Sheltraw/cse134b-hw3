@@ -1,7 +1,7 @@
 /* Page layout */
 .email__contents {
   margin: 1rem 0;
-  border: 1px solid var(--layout-border-color, lightgray);
+  border: 1px solid var(--layout-border-color, gray);
   border-radius: 10px;
   padding: 1rem;
   max-height: calc(100vh - 25rem);
@@ -15,7 +15,7 @@
   display: inline-flex;
   align-items: center;
   background-color: var(--layout-bg-color, lightgray);
-  border: 1px solid var(--layout-border-color, lightgray);
+  border: 1px solid var(--layout-border-color, gray);
   border-radius: 1rem;
   padding: 0.5rem 1rem;
 }

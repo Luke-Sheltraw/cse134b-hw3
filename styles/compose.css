@@ -10,7 +10,7 @@
 .contact__bodyInput {
   flex: 1;
   resize: none;
-  border: 1px solid var(--layout-border-color, lightgray);
+  border: 1px solid var(--layout-border-color, gray);
   border-radius: 1rem;
   font-family: inherit;
   font-size: 0.875rem;
@@ -33,7 +33,7 @@
   height: 2.25rem;
   padding: 0 0.75rem;
   font-size: 0.875rem;
-  border: 1px solid var(--layout-border-color, lightgray);
+  border: 1px solid var(--layout-border-color, gray);
   border-radius: 1rem;
 }
 
@@ -43,7 +43,7 @@
   display: inline-flex;
   align-items: center;
   background-color: var(--layout-bg-color, lightgray);
-  border: 1px solid var(--layout-border-color, lightgray);
+  border: 1px solid var(--layout-border-color, gray);
   border-radius: 1rem;
   padding: 0.5rem 1rem;
 }
