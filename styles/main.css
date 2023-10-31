@@ -35,7 +35,7 @@ body {
   width: 10rem;
   overflow: hidden;
   white-space: nowrap;
-  transition: 150ms width ease-in-out;
+  transition: 150ms width ease-in-out, 150ms padding ease-in-out;
 }
 
 .main__right {
@@ -159,7 +159,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .footer__text {
@@ -200,17 +200,22 @@ body {
     width: 100%;
   }
 
-  #menu-open:target {
-    width: 10rem;
+  #menu-open {
     height: 100dvh;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
     background-color: white;
-    padding: 0.5rem;
+    width: 0;
+    padding: 0.5rem 0;
     border-right: 1px solid var(--layout-border-color, lightgray);
     box-shadow: var(--layout-shadow, none);
+  }
+
+  #menu-open:target {
+    width: 10rem;
+    padding: 0.5rem;
   }
 
   .nav__list {

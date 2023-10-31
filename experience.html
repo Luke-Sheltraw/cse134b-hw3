@@ -13,6 +13,7 @@
 </head>
 <body>
   <header class="header__wrapper">
+    <a href="#menu-open" aria-label="Open menu" title="Open menu" class="header__menuButton"></a>
     <img src="/assets/images/mail_icon.svg" alt="Mail logo" width="40" height="40" class="header__logo">
     <div class="header__search">
       <input
@@ -47,16 +48,17 @@
     </svg>
   </header>
   <div class="main__row">
-    <aside class="main__left">
+    <aside class="main__left" id="menu-open">
+      <a href="#" aria-label="Close menu" title="Close menu" class="header__menuButton" id="close-menu-button"></a>
       <nav>
         <ul class="nav__list">
           <li><a href="contact.html" class="nav__contactButton">Contact me</a></li>
           <li><a href="index.html" class="nav__folderLink">Inbox</a></li>
-          <li><a href="#" class="nav__folderLink">Starred</a></li>
-          <li><a href="#" class="nav__folderLink">Sent</a></li>
-          <li><a href="#" class="nav__folderLink">Drafts</a></li>
-          <li><a href="#" class="nav__folderLink">Spam</a></li>
-          <li><a href="#" class="nav__folderLink">Trash</a></li>
+          <li><a href="index.html" class="nav__folderLink">Starred</a></li>
+          <li><a href="index.html" class="nav__folderLink">Sent</a></li>
+          <li><a href="index.html" class="nav__folderLink">Drafts</a></li>
+          <li><a href="index.html" class="nav__folderLink">Spam</a></li>
+          <li><a href="index.html" class="nav__folderLink">Trash</a></li>
         </ul>
       </nav>
     </aside>

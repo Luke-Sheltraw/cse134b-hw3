@@ -90,3 +90,10 @@
 .contact__discardButton:hover {
   text-decoration: underline;
 }
+
+/* Responsive Layout */
+@media screen and (max-width: 620px) {
+  .header__wrapper {
+    display: none;
+  }
+}
