@@ -195,7 +195,7 @@ body {
   }
 
   .header__menuButton#close-menu-button {
-    margin-top: 3px;
+    margin-top: 4px;
   }
 
   .header__logo {
@@ -229,6 +229,6 @@ body {
   }
 
   .nav__list {
-    margin: 1.375rem 0 2rem 1rem;
+    margin: 1.35rem 0 2rem 1rem;
   }
 }
