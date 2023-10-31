@@ -2,14 +2,14 @@
 
 @font-face {
   font-family: Roboto;
-  src: url(../assets/fonts/Roboto-Regular.ttf);
+  src: url(../assets/fonts/Roboto-Regular.ttf) format('truetype');
   font-weight: normal;
   font-display: auto;
 }
 
 @font-face {
   font-family: Roboto;
-  src: url(../assets/fonts/Roboto-Medium.ttf);
+  src: url(../assets/fonts/Roboto-Medium.ttf) format('truetype');
   font-weight: bold;
   font-display: auto;
 }
@@ -187,7 +187,7 @@ body {
   }
 
   .main__left {
-    width: 0rem;
+    width: 0;
   }
 
   .header__menuButton {
