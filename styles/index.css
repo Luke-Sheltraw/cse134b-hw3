@@ -1,0 +1,56 @@
+@import url(tokens.css);
+
+/* Email List */
+.emailList__wrapper {
+  border-collapse: collapse;
+  box-shadow: var(--layout-shadow, none);
+  width: 100%;
+}
+
+.emailList__header {
+  background-color: var(--layout-bg-color, lightgray);
+  text-align: left;
+}
+
+/* Individual Emails */
+.email__wrapper,
+.emailList__header {
+  border: 1px solid var(--layout-border-color, lightgray);
+  position: relative;
+  height: var(--email-row-height, 2.25rem);
+}
+
+.email__wrapper:hover {
+  filter: brightness(0.95);
+}
+
+.email__wrapper__unread {
+  background-color: var(--unread-email-bg-color, white);
+}
+
+.email__wrapper__read {
+  background-color: var(--read-email-bg-color, lightgray);
+}
+
+.email__checkbox {
+  width: 2rem;
+  text-align: center;
+}
+
+.email__title {
+  font-weight: bold;
+}
+
+.email__title a {
+  text-decoration: none;
+  color: var(--layout-psuedo-black, black);
+}
+
+.email__title a::before {
+  content: "";
+  position: absolute;
+  left: 2rem;
+  top: -1px;
+  width: calc(100% - 2rem);
+  height: var(--email-row-height, 2.25rem);
+}

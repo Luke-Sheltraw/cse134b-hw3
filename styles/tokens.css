@@ -1,0 +1,12 @@
+:root {
+  --layout-bg-color: #efefef;
+  --layout-border-color: #cfcfcf;
+  --layout-psuedo-black: #1c1510;
+  --layout-secondary-text-color: #7d7d7d;
+  --layout-shadow: 1px 1px 5px 1px #efefef;
+
+  --unread-email-bg-color: #ffffff;
+  --read-email-bg-color: #eaeaea;
+
+  --email-row-height: 2.25rem;
+}
