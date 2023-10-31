@@ -63,10 +63,11 @@
   .email__titleWrapper {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
   }
 
   .email__title {
-    margin-left: 1.25rem;
+    margin: 0 1.25rem;
   }
 
   .emailMetadata__timestamp__smallScreen {

@@ -153,6 +153,11 @@ body {
   text-decoration: underline;
 }
 
+.main__left .header__icon {
+  display: none;
+}
+
+
 /* Footer */
 .footer__wrapper {
   position: absolute;
@@ -174,6 +179,11 @@ body {
 
   .header__icon {
     display: none;
+  }
+
+  .main__left .header__icon {
+    display: block;
+    margin-top: 1rem;
   }
 
   .main__left {
