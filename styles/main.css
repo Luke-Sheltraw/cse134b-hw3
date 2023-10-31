@@ -40,6 +40,7 @@ body {
 
 .main__right {
   flex: 1;
+  max-width: 1000px;
 }
 
 .main__backLink {
