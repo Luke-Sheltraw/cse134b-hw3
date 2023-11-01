@@ -20,6 +20,7 @@
 
 body {
   padding: 0 1rem;
+  overflow: hidden;
   color: var(--layout-psuedo-black, black);
   font-family: Roboto, Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
