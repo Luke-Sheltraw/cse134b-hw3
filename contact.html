@@ -13,8 +13,22 @@
 </head>
 <body>
   <header class="header__wrapper">
-    <img src="/assets/images/mail_icon.svg" alt="Mail logo" width="40" height="40" class="header__logo">
-    <div class="header__search"></div>
+    <a href="#menu-open" aria-label="Open menu" title="Open menu" class="header__menuButton"></a>
+    <a href="index.html">
+      <img src="/assets/images/logo_icon.svg" alt="Mail logo" width="200" height="40" class="header__logo">
+    </a>
+    <div class="header__search">
+      <input
+        type="search"
+        placeholder="Search in mail" 
+        maxlength="150"
+        name="search"
+        id="search"
+        autocomplete="off"
+        aria-autocomplete="inline"
+        class="search__input"
+      >
+    </div>
     <img
       src="/assets/images/settings_icon.svg"
       alt="Fake settings icon"

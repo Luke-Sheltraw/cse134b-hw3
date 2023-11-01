@@ -13,7 +13,10 @@
 </head>
 <body>
   <header class="header__wrapper">
-    <img src="/assets/images/mail_icon.svg" alt="Mail logo" width="40" height="40" class="header__logo">
+    <a href="#menu-open" aria-label="Open menu" title="Open menu" class="header__menuButton"></a>
+    <a href="index.html">
+      <img src="/assets/images/logo_icon.svg" alt="Mail logo" width="200" height="40" class="header__logo">
+    </a>
     <div class="header__search">
       <input
         type="search"
@@ -47,7 +50,8 @@
     </svg>
   </header>
   <div class="main__row">
-    <aside class="main__left">
+    <aside class="main__left" id="menu-open">
+      <a href="#" aria-label="Close menu" title="Close menu" class="header__menuButton" id="close-menu-button"></a>
       <nav>
         <ul class="nav__list">
           <li><a href="contact.html" class="nav__contactButton">Contact me</a></li>
@@ -55,14 +59,27 @@
           <li><a href="#" class="nav__folderLink">Starred</a></li>
           <li><a href="#" class="nav__folderLink">Sent</a></li>
           <li><a href="#" class="nav__folderLink">Drafts</a></li>
-          <li><a href="#" class="nav__folderLink">Spam</a></li>
-          <li><a href="#" class="nav__folderLink">Trash</a></li>
+          <li><a href="https://www.spam.com/recipes/spam-fries" target="_blank" class="nav__folderLink">Spam</a></li>
+          <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="nav__folderLink">Trash</a></li>
         </ul>
       </nav>
+      <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" class="header__icon">
+        <circle cx="20" cy="20" r="20" fill="#D9D9D9" />
+      </svg>
+      <img
+        src="/assets/images/settings_icon.svg"
+        alt="Fake settings icon"
+        width="40"
+        height="40"
+        draggable="false"
+        class="header__icon"
+      >
     </aside>
     <main class="main__right">
-      <a href="index.html" class="main__backLink" aria-label="Back"></a>
-      <h1>About me</h1>
+      <div class="email__titleWrapper">
+        <a href="index.html" class="main__backLink" aria-label="Back"></a>
+        <h1 class="email__title">About me</h1>
+      </div>
       <section class="emailMetadata__wrapper">
         <div class="emailMetadata__leftAlign">
           <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
@@ -70,10 +87,12 @@
           </svg>
           <div class="emailMetadata__fromInfoWrapper">
             <p><b>First Last</b> <span>&lt;first-last@mail.com&gt;</span></p>
-            <p>to me</p>
+            <p>to me
+              <span class="emailMetadata__timestamp emailMetadata__timestamp__smallScreen">12:34 (56 minutes ago)</span>
+            </p>
           </div>
         </div>
-        <p>12:34 (56 minutes ago)</p>
+        <p class="emailMetadata__timestamp emailMetadata__timestamp__largeScreen">12:34 (56 minutes ago)</p>
       </section>
       <article class="email__contents">
         <figure>
