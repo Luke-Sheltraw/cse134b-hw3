@@ -92,7 +92,7 @@ body {
 
 .header__search {
   flex: 1;
-  margin-left: 7rem;
+  margin-left: 2.5rem;
 }
 
 .search__input {
@@ -105,8 +105,9 @@ body {
 }
 
 .header__logo {
-  width: 3rem;
-  height: auto;
+  display: block;
+  height: 1.5rem;
+  width: auto;
 }
 
 .header__icon {
@@ -146,18 +147,18 @@ body {
 }
 
 .nav__folderLink {
-  text-decoration: none;
+  text-decoration-color: var(--layout-text-underline-color, gray);
+  text-decoration-line: none;
   color: var(--layout-psuedo-black, black);
 }
 
 .nav__folderLink:hover {
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 .main__left .header__icon {
   display: none;
 }
-
 
 /* Footer */
 .footer__wrapper {

@@ -71,10 +71,11 @@
 
 .contact__discardButton {
   color: var(--layout-psuedo-black, black);
-  text-decoration: none;
   margin-left: 1rem;
   display: inline-flex;
   align-items: center;
+  text-decoration-color: var(--layout-text-underline-color, gray);
+  text-decoration-line: none;
 }
 
 .contact__discardButton::before {
@@ -88,7 +89,7 @@
 }
 
 .contact__discardButton:hover {
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 /* Responsive Layout */
