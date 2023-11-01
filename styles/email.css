@@ -4,7 +4,7 @@
   border: 1px solid var(--layout-border-color, gray);
   border-radius: 10px;
   padding: 1rem;
-  max-height: calc(100vh - 20rem);
+  max-height: calc(100vh - 22rem);
   overflow: hidden scroll;
 }
 
