@@ -6,7 +6,7 @@
   border-radius: 10px;
   padding: 1rem;
   max-height: calc(100vh - 22rem);
-  overflow: hidden scroll;
+  overflow: hidden auto;
 }
 
 /* General Email Format */
