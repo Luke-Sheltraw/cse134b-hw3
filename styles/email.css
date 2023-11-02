@@ -12,7 +12,7 @@
 /* General Email Format */
 .email__replyLink {
   text-decoration: none;
-  color: var(--layout-psuedo-black, black);
+  color: var(--layout-accent-contrast-text-color, black);
   display: inline-flex;
   align-items: center;
   background-color: var(--layout-accent-color, lightgray);

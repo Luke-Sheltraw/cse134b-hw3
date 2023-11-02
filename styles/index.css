@@ -35,7 +35,8 @@
   border-top: 1px solid var(--layout-border-color, gray);
 }
 
-.emailList__wrapper tr td {
+.emailList__wrapper tr td,
+.emailList__wrapper tr th {
   border-bottom: 1px solid var(--layout-border-color, gray);
 }
 

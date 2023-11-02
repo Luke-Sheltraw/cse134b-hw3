@@ -34,7 +34,6 @@ body {
 
 .main__left {
   width: 10rem;
-  overflow: hidden;
   white-space: nowrap;
   transition: 150ms width ease-in-out, 150ms padding-left ease-in-out, 150ms padding-right ease-in-out;
 }
@@ -140,8 +139,8 @@ body {
   border: 1px solid var(--layout-border-color, gray);
   border-radius: 1rem;
   display: inline-block;
-  color: var(--layout-psuedo-black, black);
   font-weight: bold;
+  color: var(--layout-accent-contrast-text-color, black);
   box-shadow: var(--layout-outset-shadow, none);
 }
 
@@ -242,6 +241,7 @@ input[disabled] {
     padding: 0.5rem 0;
     border-right: 1px solid var(--layout-border-color, gray);
     box-shadow: var(--layout-outset-shadow, none);
+    overflow: hidden;
   }
 
   #menu-open:target {
