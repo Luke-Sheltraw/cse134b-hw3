@@ -2,6 +2,7 @@
 .email__contents {
   margin: 1rem 0;
   border: 1px solid var(--layout-border-color, gray);
+  box-shadow: var(--layout-outset-shadow, none);
   border-radius: 10px;
   padding: 1rem;
   max-height: calc(100vh - 22rem);
@@ -14,10 +15,11 @@
   color: var(--layout-psuedo-black, black);
   display: inline-flex;
   align-items: center;
-  background-color: var(--layout-bg-color, lightgray);
+  background-color: var(--layout-accent-color, lightgray);
   border: 1px solid var(--layout-border-color, gray);
   border-radius: 1rem;
   padding: 0.5rem 1rem;
+  box-shadow: var(--layout-outset-shadow, none);
 }
 
 .email__replyLink::before {

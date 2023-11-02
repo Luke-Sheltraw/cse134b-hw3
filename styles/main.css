@@ -56,9 +56,10 @@ body {
 }
 
 .main__backLink:hover {
-  background-color: var(--layout-bg-color, lightgray);
+  background-color: var(--layout-accent-color, lightgray);
   border: 1px solid var(--layout-border-color, gray);
   filter: brightness(0.95);
+  box-shadow: var(--layout-outset-shadow, none);
 }
 
 /* Header */
@@ -135,12 +136,13 @@ body {
 .nav__contactButton {
   text-decoration: none;
   padding: 0.5rem 1rem;
-  background-color: var(--layout-bg-color, white);
+  background-color: var(--layout-accent-color, white);
   border: 1px solid var(--layout-border-color, gray);
   border-radius: 1rem;
   display: inline-block;
   color: var(--layout-psuedo-black, black);
   font-weight: bold;
+  box-shadow: var(--layout-outset-shadow, none);
 }
 
 .nav__contactButton:hover {
@@ -172,6 +174,22 @@ body {
 
 .footer__text {
   margin: 0;
+}
+
+/* General */
+input,
+textarea {
+  accent-color: var(--layout-accent-color, blue);
+  box-shadow: var(--layout-inset-shadow, none);
+}
+
+input:focus,
+textarea:focus {
+  outline-color: var(--layout-accent-color, blue);
+}
+
+input[disabled] {
+  filter: brightness(0.9);
 }
 
 /* Responsive Layout */
@@ -223,7 +241,7 @@ body {
     width: 0;
     padding: 0.5rem 0;
     border-right: 1px solid var(--layout-border-color, gray);
-    box-shadow: var(--layout-shadow, none);
+    box-shadow: var(--layout-outset-shadow, none);
   }
 
   #menu-open:target {

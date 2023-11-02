@@ -38,14 +38,16 @@
 }
 
 .contact__sendButton {
+  font-size: 0.875rem;
   text-decoration: none;
   color: var(--layout-psuedo-black, black);
   display: inline-flex;
   align-items: center;
-  background-color: var(--layout-bg-color, lightgray);
+  background-color: var(--layout-accent-color, lightgray);
   border: 1px solid var(--layout-border-color, gray);
   border-radius: 1rem;
   padding: 0.5rem 1rem;
+  box-shadow: var(--layout-outset-shadow, none);
 }
 
 .contact__sendButton::before {

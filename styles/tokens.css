@@ -1,24 +1,44 @@
-:root {
-  --layout-bg-color: #efefef;
+/* :root {
+  --layout-accent-color: #efefef;
   --layout-border-color: #cfcfcf;
-  --layout-psuedo-black: #1c1510;
+  --layout-psuedo-black: #251d16;
   --layout-secondary-text-color: #7d7d7d;
   --layout-text-underline-color: #9f9f9f;
-  --layout-shadow: 1px 1px 5px 1px #efefef;
+
+  --layout-outset-shadow: 1px 1px 5px 1px #efefef;
+  --layout-inset-shadow: 1px 1px 5px 1px #efefef;
 
   --unread-email-bg-color: #ffffff;
   --read-email-bg-color: #eaeaea;
 
   --email-row-height: 2.1rem;
+} */
+
+:root {
+  --layout-accent-color: #ffa647;
+  --layout-border-color: #ffead4;
+  --layout-psuedo-black: #251d16;
+  --layout-secondary-text-color: #7d7d7d;
+  --layout-text-underline-color: #bc6100;
+
+  --layout-outset-shadow: 1px 1px 5px 1px #efefef;
+  --layout-inset-shadow: inset 1px 1px 3px 1px #efefef70;
+
+  --unread-email-bg-color: #ffffff;
+  --read-email-bg-color: #fff1e1;
+
+  --email-row-height: 2.1rem;
 }
 
 /* :root {
-  --layout-bg-color: #ffc7c7;
+  --layout-accent-color: #ffc7c7;
   --layout-border-color: #8a1616;
   --layout-psuedo-black: #1c1510;
   --layout-secondary-text-color: #7d7d7d;
   --layout-text-underline-color: #cb0606;
-  --layout-shadow: 1px 1px 5px 1px #efefef;
+
+  --layout-outset-shadow: 1px 1px 5px 1px #efefef;
+  --layout-inset-shadow: 1px 1px 5px 1px #efefef;
 
   --unread-email-bg-color: #ffffff;
   --read-email-bg-color: #ecd9d9;
