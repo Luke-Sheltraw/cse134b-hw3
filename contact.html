@@ -86,6 +86,7 @@
           <input
             type="email"
             placeholder="youraddress@mail.com"
+            title="Enter your email address"
             id="fromaddress"
             name="fromaddress"
             autocomplete="off"
@@ -96,13 +97,22 @@
         
         <div class="contact__fwInputWrapper">
           <label for="toaddress">To</label>
-          <input type="email" value="lukesheltraw@gmail.com" disabled id="toaddress" name="toaddress" required>
+          <input
+            type="email"
+            value="lukesheltraw@gmail.com"
+            title="Luke's email address"
+            id="toaddress"
+            name="toaddress"
+            disabled
+            required
+          >
         </div>
   
         <div class="contact__fwInputWrapper">
           <label for="subject">Subject</label>
           <input
             type="text"
+            title="Enter a subject line"
             id="subject"
             name="subject"
             required autocomplete="off"
@@ -110,7 +120,12 @@
           >
         </div>
   
-        <textarea name="body" class="contact__bodyInput" required></textarea>
+        <textarea 
+          name="body"
+          title="Enter email body content"
+          class="contact__bodyInput"
+          required
+        ></textarea>
 
         <div class="contact__actions">
           <button class="contact__sendButton gradient-bg">Send</button>
