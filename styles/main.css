@@ -47,11 +47,23 @@ body {
   display: inline-block;
   width: 2.175rem;
   height: 2.175rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.main__backLink::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.175rem;
+  height: 2.175rem;
   background-image: url(../assets/images/arrow_back_icon.svg);
   background-size: 2rem 2rem;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 50%;
 }
 
 .main__backLink:hover {
@@ -59,6 +71,10 @@ body {
   border: 1px solid var(--layout-border-color, gray);
   filter: brightness(0.95);
   box-shadow: var(--layout-outset-shadow, none);
+}
+
+.main__backLink:hover::before {
+  filter: brightness(0) invert(1);
 }
 
 /* Header */
