@@ -226,6 +226,7 @@ input[disabled] {
     var(--layout-accent-color, gray),
     var(--layout-text-underline-color, lightgray)
   );
+  background-attachment: fixed;
   background-size: 300% 100%;
 }
 
