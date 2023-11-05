@@ -119,7 +119,6 @@ body {
 
 .header__search {
   flex: 1;
-  margin-left: 2.5rem;
 }
 
 .search__input {
@@ -131,10 +130,24 @@ body {
   border-radius: 1rem;
 }
 
-.header__logo {
-  display: block;
-  height: 1.5rem;
+.header__logo img {
+  height: 2.5rem;
   width: auto;
+  margin-right: 0.2rem;
+}
+
+.header__logo {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  width: 10rem;
+}
+
+.header__logo a {
+  color: var(--layout-psuedo-black, black);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: flex-end;
 }
 
 .header__icon {
