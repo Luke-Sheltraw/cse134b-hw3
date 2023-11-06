@@ -171,7 +171,17 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.nav__contactButton {
+.nav__list a {
+  text-decoration-color: var(--layout-text-underline-color, gray);
+  text-decoration-line: none;
+  color: var(--layout-psuedo-black, black);
+}
+
+.nav__list a:hover {
+  text-decoration-line: underline;
+}
+
+.nav__list .nav__contactButton {
   text-decoration: none;
   padding: 0.5rem 1rem;
   background-color: var(--layout-accent-color, white);
@@ -183,18 +193,8 @@ body {
   box-shadow: var(--layout-outset-shadow, none);
 }
 
-.nav__contactButton:hover {
+.nav__list .nav__contactButton:hover {
   filter: brightness(0.95);
-}
-
-.nav__folderLink {
-  text-decoration-color: var(--layout-text-underline-color, gray);
-  text-decoration-line: none;
-  color: var(--layout-psuedo-black, black);
-}
-
-.nav__folderLink:hover {
-  text-decoration-line: underline;
 }
 
 .main__left .header__icon {

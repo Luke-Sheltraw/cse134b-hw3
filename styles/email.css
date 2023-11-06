@@ -54,6 +54,10 @@
   margin-left: 1rem;
 }
 
+.emailMetadata__fromInfoWrapper address {
+  font-style: normal;
+}
+
 .emailMetadata__timestamp__smallScreen {
   color: var(--layout-secondary-text-color, gray);
   margin-left: 0.375rem;
