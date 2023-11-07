@@ -5,7 +5,7 @@
   box-shadow: var(--layout-outset-shadow, none);
   border-radius: 10px;
   padding: 1rem;
-  max-height: calc(100vh - 22rem);
+  max-height: calc(100vh - 21.5rem);
   overflow: hidden auto;
 }
 
