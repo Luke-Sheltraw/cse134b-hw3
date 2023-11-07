@@ -138,6 +138,7 @@ body {
   height: 2.5rem;
   width: auto;
   margin-right: 0.2rem;
+  margin-bottom: -0.1rem;
 }
 
 .header__logo {
