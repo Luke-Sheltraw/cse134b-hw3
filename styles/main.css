@@ -217,6 +217,7 @@ body {
 
 .footer__text {
   margin: 0;
+  white-space: normal;
 }
 
 /* General */
