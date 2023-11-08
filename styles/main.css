@@ -256,7 +256,7 @@ input[disabled] {
 }
 
 /* Responsive Layout */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 620px), (max-height: 500px) {
   body {
     padding: 0;
   }
