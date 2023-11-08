@@ -5,7 +5,7 @@
   box-shadow: var(--layout-outset-shadow, none);
   border-radius: 10px;
   padding: 1rem;
-  max-height: calc(100vh - 21.5rem);
+  max-height: calc(100vh - 25.6rem);
   overflow: hidden auto;
 }
 
@@ -34,6 +34,10 @@
 
 .email__replyLink:hover {
   filter: brightness(0.95);
+}
+
+.email__title {
+  font-size: 2em;
 }
 
 /* Metadata */
@@ -66,6 +70,10 @@
 
 /* Responsive Layout */
 @media screen and (max-width: 620px) {
+  .email__contents {
+    max-height: calc(100vh - 21.5rem);
+  }
+
   .email__titleWrapper {
     display: flex;
     align-items: center;
