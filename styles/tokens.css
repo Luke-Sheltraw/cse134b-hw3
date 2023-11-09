@@ -3,8 +3,8 @@
   --layout-accent-color: #1F8AFF;
   --layout-border-color: #bbbec2;
   --layout-psuedo-black: #213442;
-  --layout-secondary-text-color: #7d7d7d;
-  --layout-text-underline-color: #7AB8FD;
+  --layout-secondary-text-color: color(srgb-linear 0.4 0.4 0.4);
+  --layout-text-underline-color: color-mix(in hsl, var(--layout-accent-color), rgb(0, 255, 255));
   --layout-accent-contrast-text-color: white;
 
   --layout-outset-shadow: 0 0 5px 1px #efefef;
