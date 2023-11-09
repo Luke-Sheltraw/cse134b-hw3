@@ -120,7 +120,14 @@
             <picture>
               <source srcset="/assets/images/self_image.avif" type="image/avif">
               <source srcset="/assets/images/self_image.webp" type="image/webp">
-              <img src="/assets/images/self_image.jpg" alt="Picture of me looking up toward camera" width="200" height="267">
+              <img
+                srcset="/assets/images/self_image.jpg 600w, /assets/images/self_image_large 800w"
+                sizes="(max-width: 650px) 600px, 800px"
+                src="/assets/images/self_image_large.jpg"
+                alt="Picture of me looking up toward camera"
+                width="200" 
+                height="267"
+              >
             </picture>
             <figcaption>
               Flattering picture of me
